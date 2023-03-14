@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bai8</title>
+    <style>
+        .bordercolor{
+            text-align: center;
+            border-style: solid;
+            border-color: green yellow blue pink;
+            border-width: 10px;
+            margin-left: 35%;
+        }
+        .borderstyle{
+            text-align: center;
+            border-style: solid dotted groove double;
+            border-color: green yellow  blue pink;
+            border-width: 10px;
+            margin-left: 35%;
+        }
+        .borderwidth{
+            text-align: center;
+            border-style:solid;
+            border-color: green yellow  blue pink;
+            border-width: 5px 10px 15px 20px;
+            margin-left: 35%;
+        }
+        .borderradius{
+            text-align: center;
+            border-style:solid;
+            border-color: green yellow  blue pink;
+            border-width: 10px;
+            border-radius: 0px 30px 70px 20px;  
+              /* top-left,top-right,bottom-right,bottom-left   */
+            margin-left: 35%;
+        }
+
+
+
+
+    </style>
+</head>
+
+<body>
+    <h1 style="text-align: center;">Câu 8 a</h1>
+    <h2>Border Color</h2>
+    <p>Syntax :<font color ="blue">border-color </font>:<font color = "red">(top) (right) (bottom) (left);</font></p>
+    <p>example:<font color ="blue">border-color </font>:<font color="red">#85C226 #f7c200 #4493A0 #DF127B;</font></p>
+    <div class="bordercolor">
+        <p>Here the top border is green (#85C226)in color,</p><p>right border is yellow(#F7C200),</p>
+        <p>the bottom has blue(#4493A0)</p><p>and left border is pink(#DF127B)in color</p>
+    </div>
+
+    <h1 style="text-align: center;">Câu 8 b</h1>
+    <h2>Border Style</h2>
+    <p>Syntax :<font color ="blue">border-style </font>:<font color = "red">(top) (right) (bottom) (left);</font></p>
+    <p>example:<font color ="blue">border-style </font>:<font color="red">solid dotted groove double;</font></p>
+    <div class="borderstyle">
+        <p>Here the top border(green) has a solid style</p>
+        <p>right (yellow) one has dotted</p>
+        <p>bottom (blue) one has groove and</p>
+        <p>the left (pink) one has the double style</p>
+    </div>
+
+    <h1 style="text-align: center;">Câu 8 c</h1>
+    <h2>Border Width</h2>
+    <p>Syntax :<font color ="blue">border-width</font>:<font color = "red">(top) (right) (bottom) (left);</font></p>
+    <p>example:<font color ="blue">border-width </font>:<font color="red">5px 10px 15px 20px;</font></p>
+    <div class="borderwidth">
+        <p>Here the top (green)border's width is 5 pixel</p>
+        <p>right (yellow)border is 10 pixel</p>
+        <p>bottom (blue) is 15 pixel</p>
+        <p>the left (pink)is 5 pixel wide</p>
+    </div>
+
+    <h1 style="text-align: center;">Câu 8 d</h1>
+    <h2>Border Radius</h2>
+
+    <div class="borderradius">
+        <p>No Border radius (0px) has been applied on the top-left(green-pink) corner </p>
+        <p>Border radius (30px) has been applied on the top-right(green-yellow) corner</p>
+        <p>Border radius (70px) has been applied on the bottom-right(blue-yellow) corner</p>
+        <p>Border radius (20px) has been applied on the bottom-left(blue-pink) corner</p>
+    </div>
+    
+</body>
+</html>
